@@ -1,21 +1,73 @@
-<a href="https://interactivebrokersofia.click" class="join-button">
-  JOIN OUR COMMUNITY
-</a>
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Нашата общност</title>
 
-<style>
-.join-button {
-  display: block;
-  width: 90%;
-  max-width: 400px;
-  margin: 25px auto;
-  padding: 18px 20px;
-  background: #1877f2;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 22px;
-  font-weight: bold;
-  box-sizing: border-box;
-}
-</style>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    .container {
+      padding: 30px;
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 48px;
+      line-height: 1.15;
+      margin-bottom: 35px;
+    }
+
+    .join-button {
+      display: inline-block;
+      padding: 20px 45px;
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      background: #0088cc;
+      text-decoration: none;
+      border-radius: 12px;
+    }
+
+    .join-button:hover {
+      background: #0077b5;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      .join-button {
+        font-size: 20px;
+        padding: 18px 35px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Присъединете се към нашата общност</h1>
+
+    <a
+      class="join-button"
+      href="interactivebrokersofia.click"
+      target="_blank">
+      Присъединете се
+    </a>
+  </div>
+
+</body>
+</html>
